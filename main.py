@@ -75,6 +75,7 @@ def main():
             cycle_cursor=True,
             clear_screen=True,
         )
+    #     exit or repeat
     elif menu_sel == 1:
         select = ['exit', 'change MAC address']
         menu = TerminalMenu(select, title='Select', show_shortcut_hints=True)
